@@ -44,14 +44,7 @@ header.sticky {
   transition: all 0.4s ease;
 }
 
-/* line 27, ../../Site/scss/blocks/_header.scss */
-header.sticky .header-link-button {
-  display: flex;
-  align-items: center;
-  margin-top: 53px;
-}
-
-/* line 35, ../../Site/scss/blocks/_header.scss */
+/* line 29, ../../Site/scss/blocks/_header.scss */
 .header__logo {
   margin-top: 40px;
   margin-bottom: 24px;
@@ -59,12 +52,12 @@ header.sticky .header-link-button {
   align-self: center;
 }
 
-/* line 41, ../../Site/scss/blocks/_header.scss */
+/* line 35, ../../Site/scss/blocks/_header.scss */
 .header__buttons {
   display: flex;
 }
 
-/* line 45, ../../Site/scss/blocks/_header.scss */
+/* line 39, ../../Site/scss/blocks/_header.scss */
 .header__buttons-menu nav a {
   color: #ffffff;
   font-family: 'PT Sans';
@@ -78,13 +71,13 @@ header.sticky .header-link-button {
   letter-spacing: normal;
 }
 
-/* line 57, ../../Site/scss/blocks/_header.scss */
+/* line 51, ../../Site/scss/blocks/_header.scss */
 .header__buttons-menu nav a:hover {
   border-top: #980052 solid 2px;
   border-bottom: #980052 solid 2px;
 }
 
-/* line 64, ../../Site/scss/blocks/_header.scss */
+/* line 58, ../../Site/scss/blocks/_header.scss */
 .header__search {
   display: flex;
   width: 255px;
@@ -94,13 +87,13 @@ header.sticky .header-link-button {
   opacity: 0.30;
 }
 
-/* line 73, ../../Site/scss/blocks/_header.scss */
+/* line 67, ../../Site/scss/blocks/_header.scss */
 .header__search-input-wrapper {
   display: flex;
   align-items: center;
 }
 
-/* line 79, ../../Site/scss/blocks/_header.scss */
+/* line 73, ../../Site/scss/blocks/_header.scss */
 .header__search-input {
   height: 100%;
   width: 100%;
@@ -114,13 +107,13 @@ header.sticky .header-link-button {
   font-weight: 500;
 }
 
-/* line 93, ../../Site/scss/blocks/_header.scss */
+/* line 87, ../../Site/scss/blocks/_header.scss */
 .header__search-button-wrapper {
   flex-grow: 1;
   color: #ffffff;
 }
 
-/* line 98, ../../Site/scss/blocks/_header.scss */
+/* line 92, ../../Site/scss/blocks/_header.scss */
 .header__search-button {
   background-color: transparent;
   border: none;
@@ -459,7 +452,7 @@ footer-content-row {
   margin-left: 776px;
   margin-top: 36px;
   width: 372px;
-  height: 170px;
+  height: 107px;
 }
 
 /* line 49, ../../Site/scss/blocks/_footer.scss */
@@ -503,7 +496,7 @@ footer-content-row {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -269px;
+  margin-top: -203px;
   margin-left: 800px;
 }
 
@@ -529,6 +522,96 @@ footer-content-row {
 /* line 100, ../../Site/scss/blocks/_footer.scss */
 .footer-content-col-3-icons a:not(:last-child) {
   padding-right: 30px;
+}
+
+/* line 1, ../../Site/scss/blocks/_stock_1.scss */
+.stock__1-section {
+  display: flex;
+  width: 1920px;
+  height: 793px;
+  background-color: #f6f5f5;
+  flex-direction: column;
+}
+
+/* line 10, ../../Site/scss/blocks/_stock_1.scss */
+.stock__1-section-row-1 h2 {
+  color: #980052;
+  font-family: "Open Sans";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  margin-top: 62px;
+  text-align: center;
+}
+
+/* line 19, ../../Site/scss/blocks/_stock_1.scss */
+.stock__1-section-catalog {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+/* line 26, ../../Site/scss/blocks/_stock_1.scss */
+.stock__1-section-catalog-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+/* line 32, ../../Site/scss/blocks/_stock_1.scss */
+.stock__1-section-catalog-grid-type {
+  width: 100%;
+  width: 351px;
+  height: 486px;
+  border: 1px solid #980052;
+  position: relative;
+  margin-top: 32;
+  padding: 12px;
+}
+
+/* line 41, ../../Site/scss/blocks/_stock_1.scss */
+.stock__1-section-catalog-grid-type:not(:last-child) {
+  margin-right: 28px;
+}
+
+/* line 46, ../../Site/scss/blocks/_stock_1.scss */
+.s__1-catalog-inner {
+  position: relative;
+  width: 100%;
+}
+
+/* line 51, ../../Site/scss/blocks/_stock_1.scss */
+.s__1-catalog-inner-text {
+  color: #980052;
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* line 60, ../../Site/scss/blocks/_stock_1.scss */
+.stock__1-section-row-3 {
+  display: flex;
+}
+
+/* line 64, ../../Site/scss/blocks/_stock_1.scss */
+.stock__1-button__button {
+  width: 350px;
+  height: 60px;
+  border: 2px solid #980052;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #980052;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
