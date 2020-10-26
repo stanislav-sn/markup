@@ -245,18 +245,18 @@ header.sticky .header-link-button {
 /* line 37, ../../Site/scss/blocks/_carousel-theme.scss */
 .owl-carousel.owl-theme .owl-nav button.owl-prev {
   left: 205px;
-  background-image: url("../../img/slider/button_prev.png");
+  background-image: url("https://stanislav-sn.github.io/markup/img/slider/button_prev.png");
 }
 
 /* line 42, ../../Site/scss/blocks/_carousel-theme.scss */
 .owl-carousel.owl-theme .owl-nav button.owl-next {
   right: 208px;
-  background-image: url("../../img/slider/button_next.png");
+  background-image: url("https://stanislav-sn.github.io/markup/img/slider/button_next.png");
 }
 
 /* line 1, ../../Site/scss/blocks/_stock_2-section.scss */
 .stock_2-section {
-  background-image: url("../../img/stock2/background.jpg");
+  background-image: url("https://stanislav-sn.github.io/markup/img/stock2/background.jpg");
   max-width: 1924px;
   height: 442px;
 }
@@ -473,7 +473,7 @@ footer-content-row {
 
 /* line 57, ../../Site/scss/blocks/_footer.scss */
 .footer_content-col-2-phone {
-  background: url(../../img/footer/phone.png);
+  background: url(https://stanislav-sn.github.io/markup/img/footer/phone.png);
   background-repeat: no-repeat;
   padding-left: 30px;
   margin-top: -96px;
