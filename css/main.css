@@ -21,9 +21,10 @@ body {
   height: 224px;
   background-color: rgba(0, 0, 0, 0.48);
   position: fixed;
+  z-index: 2;
 }
 
-/* line 8, ../../Site/scss/blocks/_header.scss */
+/* line 10, ../../Site/scss/blocks/_header.scss */
 .header__container {
   max-width: 1135px;
   margin-left: auto;
@@ -34,7 +35,16 @@ body {
   align-items: center;
 }
 
-/* line 18, ../../Site/scss/blocks/_header.scss */
+/* line 20, ../../Site/scss/blocks/_header.scss */
+header.sticky {
+  display: flex;
+  height: 115px;
+  background-color: rgba(0, 0, 0, 0.48);
+  text-align: left;
+  transition: all 0.4s ease;
+}
+
+/* line 29, ../../Site/scss/blocks/_header.scss */
 .header__logo {
   margin-top: 40px;
   margin-bottom: 24px;
@@ -42,12 +52,12 @@ body {
   align-self: center;
 }
 
-/* line 24, ../../Site/scss/blocks/_header.scss */
+/* line 35, ../../Site/scss/blocks/_header.scss */
 .header__buttons {
   display: flex;
 }
 
-/* line 28, ../../Site/scss/blocks/_header.scss */
+/* line 39, ../../Site/scss/blocks/_header.scss */
 .header__buttons-menu nav a {
   color: #ffffff;
   font-family: 'PT Sans';
@@ -61,13 +71,13 @@ body {
   letter-spacing: normal;
 }
 
-/* line 40, ../../Site/scss/blocks/_header.scss */
+/* line 51, ../../Site/scss/blocks/_header.scss */
 .header__buttons-menu nav a:hover {
   border-top: #980052 solid 2px;
   border-bottom: #980052 solid 2px;
 }
 
-/* line 47, ../../Site/scss/blocks/_header.scss */
+/* line 58, ../../Site/scss/blocks/_header.scss */
 .header__search {
   display: flex;
   width: 255px;
@@ -77,13 +87,13 @@ body {
   opacity: 0.30;
 }
 
-/* line 56, ../../Site/scss/blocks/_header.scss */
+/* line 67, ../../Site/scss/blocks/_header.scss */
 .header__search-input-wrapper {
   display: flex;
   align-items: center;
 }
 
-/* line 62, ../../Site/scss/blocks/_header.scss */
+/* line 73, ../../Site/scss/blocks/_header.scss */
 .header__search-input {
   height: 100%;
   width: 100%;
@@ -97,13 +107,13 @@ body {
   font-weight: 500;
 }
 
-/* line 76, ../../Site/scss/blocks/_header.scss */
+/* line 87, ../../Site/scss/blocks/_header.scss */
 .header__search-button-wrapper {
   flex-grow: 1;
   color: #ffffff;
 }
 
-/* line 81, ../../Site/scss/blocks/_header.scss */
+/* line 92, ../../Site/scss/blocks/_header.scss */
 .header__search-button {
   background-color: transparent;
   border: none;

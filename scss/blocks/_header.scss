@@ -3,7 +3,9 @@
     height: 224px;
     background-color: rgba(0,0,0,.48);
     position: fixed;
+    z-index: 2;
 };
+
 
 .header__container {
     max-width: 1135px;
@@ -14,6 +16,15 @@
     justify-content: center;
     align-items: center;
 };
+
+header.sticky {
+    display: flex;
+    height: 115px;
+    background-color: rgba(0,0,0,.48);
+    text-align: left;
+    transition: all 0.4s ease;
+
+    }
 
 .header__logo {
    margin-top: 40px;
