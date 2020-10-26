@@ -24,6 +24,12 @@ header.sticky {
     text-align: left;
     transition: all 0.4s ease;
 
+    .header-link-button {
+        display: flex;
+        align-items: center;
+        margin-top: 53px;
+    }
+
     }
 
 .header__logo {

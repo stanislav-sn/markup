@@ -44,7 +44,14 @@ header.sticky {
   transition: all 0.4s ease;
 }
 
-/* line 29, ../../Site/scss/blocks/_header.scss */
+/* line 27, ../../Site/scss/blocks/_header.scss */
+header.sticky .header-link-button {
+  display: flex;
+  align-items: center;
+  margin-top: 53px;
+}
+
+/* line 35, ../../Site/scss/blocks/_header.scss */
 .header__logo {
   margin-top: 40px;
   margin-bottom: 24px;
@@ -52,12 +59,12 @@ header.sticky {
   align-self: center;
 }
 
-/* line 35, ../../Site/scss/blocks/_header.scss */
+/* line 41, ../../Site/scss/blocks/_header.scss */
 .header__buttons {
   display: flex;
 }
 
-/* line 39, ../../Site/scss/blocks/_header.scss */
+/* line 45, ../../Site/scss/blocks/_header.scss */
 .header__buttons-menu nav a {
   color: #ffffff;
   font-family: 'PT Sans';
@@ -71,13 +78,13 @@ header.sticky {
   letter-spacing: normal;
 }
 
-/* line 51, ../../Site/scss/blocks/_header.scss */
+/* line 57, ../../Site/scss/blocks/_header.scss */
 .header__buttons-menu nav a:hover {
   border-top: #980052 solid 2px;
   border-bottom: #980052 solid 2px;
 }
 
-/* line 58, ../../Site/scss/blocks/_header.scss */
+/* line 64, ../../Site/scss/blocks/_header.scss */
 .header__search {
   display: flex;
   width: 255px;
@@ -87,13 +94,13 @@ header.sticky {
   opacity: 0.30;
 }
 
-/* line 67, ../../Site/scss/blocks/_header.scss */
+/* line 73, ../../Site/scss/blocks/_header.scss */
 .header__search-input-wrapper {
   display: flex;
   align-items: center;
 }
 
-/* line 73, ../../Site/scss/blocks/_header.scss */
+/* line 79, ../../Site/scss/blocks/_header.scss */
 .header__search-input {
   height: 100%;
   width: 100%;
@@ -107,13 +114,13 @@ header.sticky {
   font-weight: 500;
 }
 
-/* line 87, ../../Site/scss/blocks/_header.scss */
+/* line 93, ../../Site/scss/blocks/_header.scss */
 .header__search-button-wrapper {
   flex-grow: 1;
   color: #ffffff;
 }
 
-/* line 92, ../../Site/scss/blocks/_header.scss */
+/* line 98, ../../Site/scss/blocks/_header.scss */
 .header__search-button {
   background-color: transparent;
   border: none;
@@ -165,7 +172,7 @@ header.sticky {
   height: 800px;
   left: 0;
   right: 0;
-  background-image: url("../../img/slider/slider.jpg");
+  background-image: url("https://stanislav-sn.github.io/markup/img/slider/slider.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
